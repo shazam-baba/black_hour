@@ -1,4 +1,4 @@
-## Offical Web Application for Thinkbots
+## Offical Web Application for BlackHour
 
 ### Setup On Local
 
