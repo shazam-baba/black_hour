@@ -2,21 +2,19 @@ import styled from "styled-components";
 import { baseColor } from "styles/base";
 
 
-function Homepage() {
+function Media() {
   return (
       <MainWrapper>
         
-          <h1>BlackHour</h1>
+          <h1>Media</h1>
           
         
       </MainWrapper>
   );
 }
 
-export default Homepage;
+export default Media;
 
 // styles
 
-const MainWrapper = styled.div`
-height:1000px;
-`;
+const MainWrapper = styled.div``;

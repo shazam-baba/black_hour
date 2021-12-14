@@ -7,9 +7,10 @@ import {
 } from "react-router-dom";
 import styled from "styled-components";
 
-import { Homepage, Page404} from "pages";
+import { Homepage, Page404, News, Updates, Media, About} from "pages";
 import { NavBar, Footer } from "containers";
 import { baseColor } from "styles/base";
+
 
 export default function App() {
   return (
@@ -20,6 +21,18 @@ export default function App() {
             <Redirect exact from="/" to="/home" />
             <Route exact path="/home">
               <Homepage />
+            </Route>
+            <Route exact path="/news">
+              <News />
+            </Route>
+            <Route exact path="/updates">
+              <Updates />
+            </Route>
+            <Route exact path="/media">
+              <Media />
+            </Route>
+            <Route exact path="/about">
+              <About />
             </Route>
             <Route>
               <Page404 />
