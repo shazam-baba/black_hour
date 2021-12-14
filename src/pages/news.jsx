@@ -2,21 +2,19 @@ import styled from "styled-components";
 import { baseColor } from "styles/base";
 
 
-function Homepage() {
+function News() {
   return (
       <MainWrapper>
         
-          <h1>BlackHour</h1>
+          <h1>News</h1>
           
         
       </MainWrapper>
   );
 }
 
-export default Homepage;
+export default News;
 
 // styles
 
-const MainWrapper = styled.div`
-height:1000px;
-`;
+const MainWrapper = styled.div``;
