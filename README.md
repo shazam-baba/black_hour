@@ -4,7 +4,7 @@
 
 First Clone the Repo
 
-> git clone github.com/thinkbots-dcrust/web.git
+> git clone github.com/shazam-baba/black_hour.git
 
 Install Node Modules
 
