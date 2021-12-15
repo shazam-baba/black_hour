@@ -18,7 +18,7 @@ export default Media;
 
 const MainWrapper = styled.div`
   overflow: hidden;
-
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   video {
@@ -29,10 +29,11 @@ const MainWrapper = styled.div`
   }
   button {
     position: absolute;
+    display: block;
     top: 75%;
-    left: 5%;
-    // transform: translate(-50%, -50%);
+    left: 10%;
     font-family: "Nunito", sans-serif;
+    translate: transform(-50%,-50%);
     background-color: #f73859;
     border-radius: 0;
     border: none;
@@ -41,24 +42,39 @@ const MainWrapper = styled.div`
     font-size: 18px;
     cursor: pointer;
     letter-spacing: 1px;
+    margin:0 50px;
+    border-right: 2px solid white;
+    border-left:2px solid white;
   }
 `;
-const DownloadBtn = styled.div`
-  width: 100px;
-  color: red;
-  background-color: red;
+const Sqr1 = styled.div`
+    position: absolute;
+    z-index:6;
+    top: 73%;
+    left: 9%;
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    padding: rem 100rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white ;
 `;
-const Button = styled.button`
-  z-index: 5;
-  font-family: "Nunito", sans-serif;
-  background-color: #d60808;
-  border-radius: 10px;
-  border: none;
-  color: white;
-  padding: 12px 25px;
-  justify-content: center;
-  font-size: 18px;
-  cursor: pointer;
-  letter-spacing: 1px;
-  margin: 0px 25px;
-`;
+
+const Sqr2 = styled.div`
+    position: absolute;
+    z-index:6;
+    top: 80%;
+    left: 17%;
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    padding: 30px 100px;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  `;

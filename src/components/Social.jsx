@@ -22,7 +22,6 @@ export default Social
 const MainWrapper = styled.section`
 width: 100%;
 height: 100%;
-position: relative;
 `;
 const Card = styled.div`
   position: fixed;
