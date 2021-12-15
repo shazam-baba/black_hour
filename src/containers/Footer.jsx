@@ -11,7 +11,7 @@ export default function Footer() {
       <Company>
         <CompanyLogo>
           <img src="./images/Footer.png" alt="" />
-          <h2>SHAZAM AND SIWACH</h2>
+          <h2><a href='https://github.com/shazam-baba'>SHAZAM</a> AND <a href='https://github.com/vinaysiwachvs'>SIWACH</a></h2>
         </CompanyLogo>
         <Mature>
           <img src="./images/Mature.jpg" height="120px" />
@@ -38,7 +38,6 @@ const Foot = styled.section`
   background-color: black;
   color: #f1d18a;
   width: 100%;
-  padding-top: 10px;
 `;
 
 const Container = styled.div``;
@@ -64,13 +63,18 @@ const CompanyLogo = styled.div`
     // position: absolute;
     // bottom: 0%;
     // right: 20%;
-    margin-top: 160px;
+    margin-top: 180px;
     margin-left: 20px;
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
-    font-family: "Play", sans-serif;
+    font-family: 'CGF Locust Resistance', sans-serif;
+    letter-spacing: 3px;
+    a{
+      text-decoration: none;
+      color: white;
+    }
   }
 `;
 
