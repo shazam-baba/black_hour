@@ -13,7 +13,7 @@ export default function NavBar() {
         <NavBtnComponent url="/news" label="News" />
         <NavBtnComponent url="/updates" label="Updates" />
         <NavBtnComponent url="/about" label="About" />
-        <Button>Download</Button>
+        <ButtonComponent url='/download'label='Download' />
       </NavButtonsWrapper>
     </MainWrapper>
   );
@@ -27,6 +27,16 @@ function NavBtnComponent(props) {
       <NavBtn onClick={props.onClick} active={location.pathname === props.url}>
         {props.label}
       </NavBtn>
+    </Link>
+  );
+}
+function ButtonComponent(props) {
+  const location = useLocation();
+  return (
+    <Link to={props.url}>
+      <Button onClick={props.onClick} active={location.pathname === props.url}>
+        {props.label}
+      </Button>
     </Link>
   );
 }

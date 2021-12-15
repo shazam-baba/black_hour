@@ -1,15 +1,12 @@
 import styled from "styled-components";
 import { baseColor } from "styles/base";
-
+import { Social } from "components";
 
 function Homepage() {
   return (
-      <MainWrapper>
-        
-          <h1>BlackHour</h1>
-          
-        
-      </MainWrapper>
+    <MainWrapper>
+      <Social />
+    </MainWrapper>
   );
 }
 
@@ -18,5 +15,5 @@ export default Homepage;
 // styles
 
 const MainWrapper = styled.div`
-height:1000px;
+  height: 1000px;
 `;

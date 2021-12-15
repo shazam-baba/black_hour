@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import styled from "styled-components";
 
-import { Homepage, Page404, News, Updates, Media, About} from "pages";
+import { Homepage, Page404, News, Updates, Download, About} from "pages";
 import { NavBar, Footer } from "containers";
 import { baseColor } from "styles/base";
 
@@ -28,8 +28,8 @@ export default function App() {
             <Route exact path="/updates">
               <Updates />
             </Route>
-            <Route exact path="/media">
-              <Media />
+            <Route exact path="/download">
+              <Download />
             </Route>
             <Route exact path="/about">
               <About />
